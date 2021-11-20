@@ -11,7 +11,7 @@
             padding: 0px;
             background-image: url(./images/123827737-all-made-of-cotton-hygiene-accessories-sanitary-napkins-cotton-pads-cotton-swabs-tampons-on-pink-bac_auto_x2.jpg);
             background-size: cover;
-            height: 1000px;
+            height: 100px;
             background-repeat: no-repeat;
         }
         .header{
@@ -26,7 +26,7 @@
             margin: 5px;
         }
         .navbar{
-            border: 2px solid black;
+            /* border: 2px solid black; */
             width: 715px;
             margin: 5px;
         }
@@ -41,6 +41,7 @@
             margin: auto;
             border-radius: 10px;
             height: 50px;
+            background-color: pink;
             margin-top: 15px;
         }
         .section{
@@ -58,17 +59,17 @@
             font-size: 30px;
         }
         .sectionbutton{
-            border: 2px solid black;
+            border: 2px solid red;
             width: 50%;
             margin: auto;
             height: 40px;
             border-radius: 20px;
-            margin-top: 40px;
+            margin-top: 200px;
         }
         .aboutus{
             border: 2px solid red;
             margin-top: 400px;
-            height: 600px;
+            height: 450px;
             width: 1515px;
             display: inline-flex;
         }
@@ -86,7 +87,7 @@
             border: 2px solid pink;
             width: 50%;
             margin: auto;
-            margin-top: 500px;
+            margin-top: 90px;
             height: 40px;
             border-radius: 20px;
         }
@@ -109,7 +110,62 @@
             height: 80px;
             margin: 10px;
         }
-
+        .section img{
+            width: 40px;
+            height: 40px;
+        }
+        /* figure{
+            position: fixed;
+        } */
+        figure > * {
+            float: left;
+        }
+        .section1div{
+            border: 2px solid red;
+            width: 80%;
+            margin-left: 90px;
+            height: 50px;
+        }
+        .section2div{
+            border: 2px solid yellow;
+            width: 80%;
+            margin-top: 20px;
+            margin-left: 90px;
+            height: 50px;
+        }
+        .aboutustext h1{
+            text-align: center;
+            padding: 10px;
+        }
+        .aboutustext p{
+            text-align: justify;
+            line-height: 1.5;
+            padding: 10px;
+            font-size: larger;
+        }
+        .navbar li{
+            display: inline-flex;
+            padding: 10px;
+            /* border: 2px solid black; */
+            margin: 5px 30px;
+            font-size: 30px;
+            
+        }
+        .navbar li a:hover{
+            color: rgb(230, 50, 80);
+        }
+        .navbar li a{
+            text-decoration: none;
+            color: white;
+        }
+        .loginbutton p{
+            text-align: center;
+            font-size: 30px;
+            margin-top: 10px;
+            color: white;
+            background-color: pink;
+        }
+        
     </style>
 </head>
 <body>
@@ -117,28 +173,50 @@
         <div class="header">
             <div class="logo"></div>
             <div class="navbar">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Testimonial</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
             </div>
             <div class="login">
                 <div class="loginbutton">
-                         
+                   <p>Log In</p>   
                 </div>
             </div>
         </div>
-        <div class="section">
-            <pre>
-                <h1>Lorem Ipsum
-lorem ipsum
-                </h1>
-                <span>something</span>                       <span>something</span>
-                <span>something</span>                       <span>something</span>
-            </pre>
-            <div class="sectionbutton">
-            
-            </div>
-        </div>
+         <div class="section">
+             <h1>WomenSure</h1>
+             <div class="section1div">
+                 <figure>
+                     <img src="./images/tick.png" alt="">
+                     <figcaption style="font-size: 30px;">&nbspHome Remedies</figcaption>
+                 </figure>
+                 <figure>
+                     <img src="./images/tick.png" style="margin-left: 157px;" alt="">
+                     <figcaption style="font-size: 30px;">&nbspYoga</figcaption>
+                 </figure>
+                </div>
+                <div class="section2div">
+                    <figure>
+                        <img src="./images/tick.png" alt="">
+                        <figcaption style="font-size: 30px;">&nbspLight Exercises</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="./images/tick.png"style="margin-left: 170px;" alt="">
+                        <figcaption style="font-size: 30px;">&nbspMedicines</figcaption>
+                    </figure>
+                     
+                </div>
+             <div class="sectionbutton"></div>
+         </div>
         <div class="aboutus">
-            <div class="aboutusimg"></div>
+            <div class="aboutusimg">
+                
+            </div>
             <div class="aboutustext">
+                <h1>YOU ARE NOT ALONE</h1>
+                <p>Our  website will lead you to the way to your relief on your hard days. We know you are strong enough to deal bizzare in your life  like a warrior, but we just wanna put our step forward to make it easier for you. We are here with right yoga practices, exercises, home remedies and  balanced diet to make you comfortable on your periods. Come forward with us and let yourself free.</p>
                 <div class="aboutustextbutton"></div>
             </div>
         </div>
