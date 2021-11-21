@@ -5,11 +5,134 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Body Part - WomenSure</title>
+    <link rel="stylesheet" href="./css/all.css">
+    <style>
+      .header{
+            border: 2px solid black;
+            height: 100px;
+            width: 1515px;
+            display: inline-flex;
+        }
+        .logo{
+            border: 2px solid black;
+            width: 400px;
+            margin: 5px;
+        }
+        .navbar{
+            /* border: 2px solid black; */
+            width: 715px;
+            margin: 5px;
+        }
+        .login{
+            border: 2px solid black;
+            width: 400px;
+            margin: 5px;
+        }
+        .loginbutton{
+            border: 2px solid red;
+            width: 50%;
+            margin: auto;
+            border-radius: 10px;
+            height: 50px;
+            background-color: pink;
+            margin-top: 15px;
+        }
+        .navbar li{
+            display: inline-flex;
+            padding: 10px;
+            /* border: 2px solid black; */
+            margin: 5px 30px;
+            font-size: 30px;
+            
+        }
+        .navbar li a:hover{
+            color: rgb(230, 50, 80);
+        }
+        .navbar li a{
+            text-decoration: none;
+            color: pink;
+        }
+        .loginbutton p{
+            text-align: center;
+            font-size: 30px;
+            margin-top: 10px;
+            color: white;
+            background-color: pink;
+        }
+        .footer{
+  padding: 40px 0px;
+  
+}
+.footer .social{
+  text-align: center;
+  padding-bottom: 25px;
+  color: #ffffff;
+
+}
+.footer .social a{
+  font-size: 30px;
+  color: #ffffff;
+  width: 40px;
+  height: 40px;
+  line-height: 30px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  margin: 0 8px;
+  opacity: 0.75;
+}
+.footer .social a:hover{
+  opacity: 5.9;
+
+}
+.footer ul{
+  margin: 0;
+  padding:0;
+  list-style: none;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 0;
+  text-align: center;
+}
+.footer ul li a{
+  color: #ffffff;
+  text-decoration: none;
+  opacity: 0.8;
+  font-size: 40px;
+}
+.footer ul li{
+  display: inline-block;
+  padding: 0 15px;
+
+}
+.footer ul li a:hover{
+  opacity: 10;
+}
+.footer .copyright{
+  margin-top: 15px;
+  text-align: center;
+  color: #f7b7cf;
+  font-size: 13px;
+  
+}
+    </style>
   </head>
   <body style="background-color: #edebe4;">
-    <div>
-      <h1>Navbar</h1>
-    </div>
+    <div class="header">
+      <div class="logo"></div>
+      <div class="navbar">
+          <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Testimonial</a></li>
+              <li><a href="#">Contact Us</a></li>
+          </ul>
+      </div>
+      <div class="login">
+          <div class="loginbutton">
+             <p>Log In</p>   
+          </div>
+      </div>
+    </div> 
 
     <div>
       <h1>Body Part Name</h1>
@@ -165,42 +288,22 @@
         More Featured Exercises
       </button>
     </p>
-    <div>
-      <footer class="master-footer" style="background-color: #edd491">
-        <div class="footer-section">
-          <p class="footer-text">
-            <a href="/Copyright">© Copyright 2021</a>, Some Rights Reserved.
-          </p>
-          <p class="footer-text">
-            <a href="/Disclaimer">Disclaimer</a> |
-            <a href="/Copyright">Copyright</a> |
-            <a href="/Newsletter">Newsletter</a>
-          </p>
-        </div>
-        <div class="footer-section">
-          <p class="footer-text footer-tagline">simplify your workout.</p>
-        </div>
-        <div class="footer-section footer-brands">
-          <a
-            class="footer-brand-link footer-brand-instagram"
-            href="https://instagram.com/musclewiki"
-          >
-            <i class="fab fa-instagram footer-brand-icon"></i>
-          </a>
-          <a
-            class="footer-brand-link footer-brand-twitter"
-            href="https://twitter.com/musclewiki"
-          >
-            <i class="fab fa-twitter footer-brand-icon"></i>
-          </a>
-          <a
-            class="footer-brand-link footer-brand-facebook"
-            href="https://facebook.com/musclewiki"
-          >
-            <i class="fab fa-facebook footer-brand-icon"></i>
-          </a>
-        </div>
-      </footer>
-    </div>
+    <div style="background: black;" class="footer">
+      <section class="footer">
+          <div class="social">
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-whatsapp"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+          </div>
+          <ul class="list">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Privacy</a></li>
+              <li><a href="#">Terms</a></li>
+          </ul>
+          <p class="copyright" style="font-size: 30px;">WomenSure &copy 2021</p>
+      </section>
+  </div>
   </body>
 </html>
