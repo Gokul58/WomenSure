@@ -1,0 +1,228 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    border: 2px solid black;
+    height: 100px;
+    width: 100%;
+    background-color: #E63946;
+    display: inline-flex;
+}
+.logo{
+    /* border: 2px solid black; */
+    width: 400px;
+    margin: 5px;
+}
+.navbar{
+    /* border: 2px solid black; */
+    width: 715px;
+    margin: 5px;
+    margin: auto;
+}
+.login{
+    /* border: 2px solid black; */
+    width: 400px;
+    margin: 5px;
+}
+.loginbutton{
+    border-radius: 10px;
+    height: 50px;
+    margin-top: 25px;
+}
+.navbar li{
+    display: inline-flex;
+    padding: 10px;
+    /* border: 2px solid black; */
+    font-size: 35px;
+    font-weight: bold;
+    
+}
+.navbar li a:hover{
+    color: rgb(230, 50, 80);
+}
+.navbar li a{
+    text-decoration: none;
+    color: white;
+    /* border: 2px solid black; */
+    padding: 5px 20px;
+    border-radius: 20px;
+}
+.navbar li a:hover{
+    color: #E63946;
+    background-color: white;
+}
+.loginbutton a{
+    text-decoration: none;
+    font-size: 35px;
+    margin-left: 130px;
+    padding: 5px 40px;
+    border-radius: 20px;
+    color: white;
+    background-color: #E63946;
+    font-weight: bold;
+}
+.loginbutton a:hover{
+    color: #E63946;
+    background-color: white;
+}
+.section{
+    border: 2px solid yellow;
+    width: 750px;
+    margin: 10px;
+    height: 600px;
+    /* background-color: white; */
+}
+.section h1{
+    margin-left: 100px;
+    font-size: 50px;
+    margin-top: 80px;
+    padding: 80px;
+}
+.section span{
+    margin-left: 69px;
+    font-size: 30px;
+}
+.sectionbutton{
+    border: 2px solid red;
+    width: 50%;
+    margin: auto;
+    height: 40px;
+    border-radius: 20px;
+    background-color: pink;
+    margin-top: 200px;
+}
+.aboutus{
+    border: 2px solid red;
+    margin-top: 400px;
+    height: 450px;
+    width: 1515px;
+    display: inline-flex;
+}
+.aboutusimg{
+    border: 2px solid orange;
+    width: 800px;
+    margin: 5px;
+}
+.aboutustext{
+    border: 2px solid blue;
+    width: 800px;
+    margin: 5px;
+}
+.aboutustextbutton{
+    border: 2px solid pink;
+    width: 50%;
+    margin: auto;
+    margin-top: 90px;
+    height: 40px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 30px;
+    background-color: pink;
+}
+
+.testimonial{
+    border: 2px solid black;
+    width: 1515px;
+    height: 700px;
+    margin-top: 15px;
+    display: inline-flex;
+}
+#box1 , #box2 , #box3 , #box4{
+    border: 2px solid red;
+    width: 500px;
+    margin: 5px;
+}
+.section img{
+    width: 40px;
+    height: 40px;
+}
+/* figure{
+    position: fixed;
+} */
+figure > * {
+    float: left;
+}
+.section1div{
+    border: 2px solid red;
+    width: 80%;
+    margin-left: 90px;
+    height: 50px;
+}
+.section2div{
+    border: 2px solid yellow;
+    width: 80%;
+    margin-top: 20px;
+    margin-left: 90px;
+    height: 50px;
+}
+.aboutustext h1{
+    text-align: center;
+    padding: 10px;
+}
+.aboutustext p{
+    text-align: justify;
+    line-height: 1.5;
+    padding: 10px;
+    font-size: larger;
+}
+.footer{
+padding: 40px 0px;
+
+}
+.footer .social{
+text-align: center;
+padding-bottom: 25px;
+color: #ffffff;
+
+}
+.footer .social a{
+font-size: 30px;
+color: #ffffff;
+width: 40px;
+height: 40px;
+line-height: 30px;
+display: inline-block;
+text-align: center;
+border-radius: 50%;
+margin: 0 8px;
+opacity: 0.75;
+}
+.footer .social a:hover{
+opacity: 5.9;
+
+}
+.footer ul{
+margin: 0;
+padding:0;
+list-style: none;
+font-size: 18px;
+line-height: 1.6;
+margin-bottom: 0;
+text-align: center;
+}
+.footer ul li a{
+color: #ffffff;
+text-decoration: none;
+opacity: 0.8;
+font-size: 40px;
+}
+.footer ul li{
+display: inline-block;
+padding: 0 15px;
+
+}
+.footer ul li a:hover{
+opacity: 10;
+}
+.footer .copyright{
+margin-top: 15px;
+text-align: center;
+color: #f7b7cf;
+font-size: 13px;
+
+}
+.aboutustextbutton a{
+text-decoration: none;
+color: white;
+}
