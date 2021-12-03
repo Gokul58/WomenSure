@@ -342,17 +342,20 @@ color: white;
 #box1 h2, #box2 h2, #box3 h2{
     text-align: center;
     padding: 10px;
+    font-size: 28px;
 }
 #box1 h3, #box2 h3, #box3 h3{
     text-align: center;
     padding: 10px;
     font-size: 20px;
+    font-size: 25px;
 }
 #box1 p, #box2 p, #box3 p{
     text-align: justify;
     padding: 10px;
     font-size: 18px;
     line-height: 1.5;
+    font-size: 22px;
 }
 #box4 img{
     width: 150px;
